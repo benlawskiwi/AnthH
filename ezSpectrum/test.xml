@@ -1,0 +1,147 @@
+<input
+  job = "harmonic_pes">
+
+<job_parameters 
+        temperature                              = "300"
+        spectrum_intensity_threshold             = "0.001"
+/>
+
+<!-- 
+  ______________________________________________________________________ 
+
+    Tags which start with "OPT_" will be ignored.
+    To include these optional keywords please "uncomment" by removing 
+    "OPT_" from the start and the corresponding end tag (if present)
+  ______________________________________________________________________ 
+
+ -->
+
+<parallel_approximation
+        max_vibr_excitations_in_initial_el_state = "1"
+        max_vibr_excitations_in_target_el_state  = "4"
+        combination_bands                        = "true"
+        use_normal_coordinates_of_target_states  = "true"
+ >
+
+  <OPT_do_not_excite_subspace size = "0" normal_modes = " " />
+
+  <OPT_energy_thresholds  units="eV, K, cm-1">
+    <initial_state   units="K">      1000    </initial_state>
+    <target_state   units="eV">      0.25    </target_state>
+  </OPT_energy_thresholds> 
+
+  <OPT_print_franck_condon_matrices flag="true"/>
+
+</parallel_approximation>
+
+<!-- 
+  ______________________________________________________________________ 
+
+ -->
+
+<OPT_dushinsky_rotations target_state="1"
+      max_vibr_excitations_in_initial_el_state = "1"
+      max_vibr_excitations_in_target_el_state  = "4"
+      > 
+  <OPT_max_vibr_to_store  target_el_state="4"/>
+
+  <OPT_do_not_excite_subspace size = "2" normal_modes = "0 1" />
+
+  <OPT_energy_thresholds  units="eV, K, cm-1">
+    <initial_state   units="K">      1000    </initial_state>
+    <target_state   units="eV">      0.25    </target_state>
+  </OPT_energy_thresholds> 
+
+  <OPT_single_excitation 
+       ini="0" 
+       targ="1v1"/>
+
+</OPT_dushinsky_rotations>
+
+<!-- 
+  ______________________________________________________________________ 
+
+ -->
+
+<initial_state>
+  <!-- THIS INITIAL STATE IS FROM "fground.out" FILE -->
+
+  <geometry
+    number_of_atoms = "25"
+    linear = "false"
+    units   ="angstr"
+    text   = "
+      C     -3.651730    0.786850   -0.000010
+      C     -2.442470    1.435350   -0.000010
+      C     -1.239740    0.687980    0.000000
+      C     -1.273300   -0.730740    0.000010
+      C     -2.506030   -1.364110    0.000010
+      C     -3.676250   -0.615070    0.000000
+      C      0.000000    1.342750    0.000010
+      C      0.000000   -1.514990    0.000020
+      C      1.273300   -0.730740    0.000000
+      C      1.239740    0.687980    0.000020
+      C      2.442470    1.435350    0.000010
+      H      2.389540    2.519000    0.000020
+      C      3.651730    0.786850   -0.000010
+      C      3.676250   -0.615070   -0.000030
+      C      2.506030   -1.364110   -0.000020
+      H      0.000000    2.432200    0.000010
+      H     -4.578690    1.345940   -0.000020
+      H     -2.389540    2.519000   -0.000020
+      H     -2.557620   -2.447600    0.000020
+      H     -4.631710   -1.128700    0.000000
+      H      0.000000   -2.189530    0.868080
+      H      4.578690    1.345940   -0.000010
+      H      4.631710   -1.128700   -0.000050
+      H      2.557620   -2.447600   -0.000040
+      H      0.000000   -2.189590   -0.867980
+             "
+        />
+
+  <OPT_manual_atoms_reordering
+     new_order="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24" />
+
+  <normal_modes
+    if_mass_weighted="true"
+    text = "
+             "
+   atoms = "    C   C   C   C   C   C   C   C   C   C   C   H   C   C   C   H   H   H   H   H   H   H   H   H   H       C   C   C   C   C   C   H   C   C   C   H   H   H   H   H   H   H   H   H   H       C   H   C   C   C   H   H   H   H   H   H   H   H   H   H       H   H   H   H   H   H   H   H   H   H       H   H   H   H   H   "
+        />
+
+  <frequencies
+    text = "
+      57.9019               104.5733               183.2110
+     223.6917               233.4912               321.0512
+     378.5052               384.2475               414.9462
+     446.2016               490.6739               520.9014
+     525.6704               595.3570               610.7452
+     670.2230               676.8238               743.0507
+     753.1517               792.9476               803.1188
+     827.9131               868.6334               892.9543
+     910.5321               915.3573               951.3746
+     996.8927              1004.7606              1036.9687
+    1050.8833              1052.3717              1065.5152
+    1066.8771              1133.8445              1160.9189
+    1178.7565              1190.8076              1201.9944
+    1204.7032              1223.9688              1229.4782
+    1283.5414              1306.7772              1328.0276
+    1372.6207              1392.0192              1401.0030
+    1404.6962              1460.7120              1497.1900
+    1500.0604              1538.1294              1570.1303
+    1622.0969              1622.3261              1669.7071
+    1686.0665              3035.0620              3067.8830
+    3182.5385              3199.5608              3199.7194
+    3206.6210              3206.8377              3214.5520
+    3214.5888              3235.7190              3235.7387
+             "
+        />
+
+</initial_state>
+
+<!-- 
+  ______________________________________________________________________ 
+
+ -->
+
+</input>

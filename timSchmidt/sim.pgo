@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Mixture Version="PGOPHER 10.1.182 4 Dec 2018 16:58 64 bit Unicode (Delphi 32/32)">
+  <Species Name="AnthH+">
+    <VibratingMolecule Name="VibratingMolecule" nModes="6">
+      <VibrationalManifold Name="X" Initial="True">
+        <ElectronicState Name="X">
+          <VibrationalMode Name="v46" vMax="0">
+            <Parameter Name="Omega" Value="231"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v45" vMax="0">
+            <Parameter Name="Omega" Value="365"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v40" vMax="0">
+            <Parameter Name="Omega" Value="660"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v67" vMax="0">
+            <Parameter Name="Omega" Value="169"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v68" vMax="0">
+            <Parameter Name="Omega" Value="104"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v69" vMax="0">
+            <Parameter Name="Omega" Value="42"/>
+          </VibrationalMode>
+        </ElectronicState>
+      </VibrationalManifold>
+      <VibrationalManifold Name="A">
+        <ElectronicState Name="A">
+          <Parameter Name="Origin" Value="20200"/>
+          <VibrationalMode Name="v46" vMax="7">
+            <Parameter Name="Omega" Value="231"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v45" vMax="3">
+            <Parameter Name="Omega" Value="365"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v40">
+            <Parameter Name="Omega" Value="660"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v67" vMax="4">
+            <Parameter Name="Omega" Value="180"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v68" vMax="4">
+            <Parameter Name="Omega" Value="104"/>
+          </VibrationalMode>
+          <VibrationalMode Name="v69" vMax="4">
+            <Parameter Name="Omega" Value="53"/>
+          </VibrationalMode>
+        </ElectronicState>
+      </VibrationalManifold>
+      <TransitionMoments Bra="A" Ket="X">
+        <MultidimensionalFCF Bra="A" Ket="X">
+          <VibrationalModeChange Name="v46">
+            <Parameter Name="Displacement" Value="0.8"/>
+          </VibrationalModeChange>
+          <VibrationalModeChange Name="v45">
+            <Parameter Name="Displacement" Value="0.4"/>
+            <Parameter Name="v46"/>
+          </VibrationalModeChange>
+          <VibrationalModeChange Name="v40">
+            <Parameter Name="Displacement" Value="0.3"/>
+            <Parameter Name="v46"/>
+            <Parameter Name="v45"/>
+          </VibrationalModeChange>
+          <VibrationalModeChange Name="v67">
+            <Parameter Name="v46"/>
+            <Parameter Name="v45"/>
+            <Parameter Name="v40"/>
+          </VibrationalModeChange>
+          <VibrationalModeChange Name="v68">
+            <Parameter Name="v46"/>
+            <Parameter Name="v45"/>
+            <Parameter Name="v40"/>
+            <Parameter Name="v67"/>
+          </VibrationalModeChange>
+          <VibrationalModeChange Name="v69">
+            <Parameter Name="v46"/>
+            <Parameter Name="v45"/>
+            <Parameter Name="v40"/>
+            <Parameter Name="v67" Value="20"/>
+            <Parameter Name="v68"/>
+          </VibrationalModeChange>
+        </MultidimensionalFCF>
+      </TransitionMoments>
+    </VibratingMolecule>
+  </Species>
+  <Parameter Name="Gaussian" Value="2"/>
+  <Parameter Name="Lorentzian" Value="2"/>
+  <Parameter Name="Temperature" Value="5"/>
+  <Parameter Name="Fmin" Value="20000"/>
+  <Parameter Name="Fmax" Value="22000"/>
+  <FormSettings Name="ConstantsWindow" ActiveObject="VibrationalModeChange: AnthH+ - VibratingMolecule - &lt;A|mu|X&gt; - &lt;A|FCF|X&gt; - v69"/>
+</Mixture>

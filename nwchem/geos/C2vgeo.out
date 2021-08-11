@@ -1,0 +1,769 @@
+ argument  1 = C2vgeo.nw
+
+
+
+============================== echo of input deck ==============================
+echo
+
+start molecule
+
+title "Title"
+charge 1
+
+geometry units angstroms print xyz
+symmetry c2v
+   C       -3.70704        0.00000       -0.71939
+   C       -2.48101        0.00000       -1.41115
+   C       -1.24852        0.00000       -0.73092
+   C       -1.27203        0.00000        0.67917
+   C       -2.50965        0.00000        1.36527
+   C       -3.72281        0.00000        0.67292
+   C        0.00000        0.00000       -1.43364
+   C        0.00000        0.00000        1.46174
+   C        1.27203        0.00000        0.67917
+   C        1.24852        0.00000       -0.73092
+   C        2.48101        0.00000       -1.41115
+   H        2.48694        0.00000       -2.49617
+   C        3.70704        0.00000       -0.71939
+   C        3.72281        0.00000        0.67292
+   C        2.50965        0.00000        1.36527
+   H        0.00000        0.00000       -2.51624
+   H       -4.63471        0.00000       -1.27971
+   H       -2.48694        0.00000       -2.49617
+   H       -2.51032        0.00000        2.45090
+   H       -4.66066        0.00000        1.21494
+   H        0.00000        0.86279        2.15089
+   H        4.63471        0.00000       -1.27971
+   H        4.66066        0.00000        1.21494
+   H        2.51032        0.00000        2.45090
+   H        0.00000       -0.86279        2.15089
+end
+
+basis
+  * library 6-31G(2df,p)
+end
+
+dft
+  xc m06-2x
+  mult 1
+end
+
+tddft
+  cis
+  nroots 5
+  notriplet
+  target 1
+  targetsym a1
+  civecs
+  grad
+    root 1
+  end
+end
+
+task tddft energy
+
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2017
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = wang
+    program         = nwchem
+    date            = Mon Aug  9 14:58:38 2021
+
+    compiled        = Tue_Jul_24_14:45:34_2018
+    source          = /home/stg121/Software/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-143-gdb0d96486
+    ga revision     = 5.6.5
+    use scalapack   = F
+    input           = C2vgeo.nw
+    prefix          = molecule.
+    data base       = ./molecule.db
+    status          = startup
+    nproc           =        1
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =   13107200 doubles =    100.0 Mbytes
+    stack    =   13107197 doubles =    100.0 Mbytes
+    global   =   26214400 doubles =    200.0 Mbytes (distinct from heap & stack)
+    total    =   52428797 doubles =    400.0 Mbytes
+    verify   = yes
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+                                       Title
+                                       -----
+
+ Scaling coordinates for geometry "geometry" by  1.889725989
+ (inverse scale =  0.529177249)
+
+ Turning off AUTOSYM since
+ SYMMETRY directive was detected!
+
+
+          ------
+          auto-z
+          ------
+
+
+                             Geometry "geometry" -> ""
+                             -------------------------
+
+ Output coordinates in angstroms (scale by  1.889725989 to convert to a.u.)
+
+  No.       Tag          Charge          X              Y              Z
+ ---- ---------------- ---------- -------------- -------------- --------------
+    1 C                    6.0000    -3.70704000     0.00000000    -0.71944116
+    2 C                    6.0000    -2.48101000     0.00000000    -1.41120116
+    3 C                    6.0000    -1.24852000     0.00000000    -0.73097116
+    4 C                    6.0000    -1.27203000     0.00000000     0.67911884
+    5 C                    6.0000    -2.50965000     0.00000000     1.36521884
+    6 C                    6.0000    -3.72281000     0.00000000     0.67286884
+    7 C                    6.0000     0.00000000     0.00000000    -1.43369116
+    8 C                    6.0000     0.00000000     0.00000000     1.46168884
+    9 C                    6.0000     1.27203000     0.00000000     0.67911884
+   10 C                    6.0000     1.24852000     0.00000000    -0.73097116
+   11 C                    6.0000     2.48101000     0.00000000    -1.41120116
+   12 H                    1.0000     2.48694000     0.00000000    -2.49622116
+   13 C                    6.0000     3.70704000     0.00000000    -0.71944116
+   14 C                    6.0000     3.72281000     0.00000000     0.67286884
+   15 C                    6.0000     2.50965000     0.00000000     1.36521884
+   16 H                    1.0000     0.00000000     0.00000000    -2.51629116
+   17 H                    1.0000    -4.63471000     0.00000000    -1.27976116
+   18 H                    1.0000    -2.48694000     0.00000000    -2.49622116
+   19 H                    1.0000    -2.51032000     0.00000000     2.45084884
+   20 H                    1.0000    -4.66066000     0.00000000     1.21488884
+   21 H                    1.0000     0.00000000     0.86279000     2.15083884
+   22 H                    1.0000     4.63471000     0.00000000    -1.27976116
+   23 H                    1.0000     4.66066000     0.00000000     1.21488884
+   24 H                    1.0000     2.51032000     0.00000000     2.45084884
+   25 H                    1.0000     0.00000000    -0.86279000     2.15083884
+
+      Atomic Mass 
+      ----------- 
+
+      C                 12.000000
+      H                  1.007825
+
+
+ Effective nuclear repulsion energy (a.u.)     777.2570847672
+
+            Nuclear Dipole moment (a.u.) 
+            ----------------------------
+        X                 Y               Z
+ ---------------- ---------------- ----------------
+     0.0000000000     0.0000000000    -0.0000000000
+
+      Symmetry information
+      --------------------
+
+ Group name             C2v       
+ Group number             16
+ Group order               4
+ No. of unique centers    14
+
+      Symmetry unique atoms
+
+     1    2    3    4    5    6    7    8   12   16   17   19   20   21
+
+
+
+                                Z-matrix (autoz)
+                                -------- 
+
+ Units are Angstrom for bonds and degrees for angles
+
+      Type          Name      I     J     K     L     M      Value
+      ----------- --------  ----- ----- ----- ----- ----- ----------
+    1 Stretch                  1     2                       1.40772
+    2 Stretch                  1     6                       1.39240
+    3 Stretch                  1    17                       1.08376
+    4 Stretch                  2     3                       1.40774
+    5 Stretch                  2    18                       1.08504
+    6 Stretch                  3     4                       1.41029
+    7 Stretch                  3     7                       1.43270
+    8 Stretch                  4     5                       1.41507
+    9 Stretch                  4     8                       1.49348
+   10 Stretch                  5     6                       1.39682
+   11 Stretch                  5    19                       1.08563
+   12 Stretch                  6    20                       1.08321
+   13 Stretch                  7    10                       1.43270
+   14 Stretch                  7    16                       1.08260
+   15 Stretch                  8     9                       1.49348
+   16 Stretch                  8    21                       1.10423
+   17 Stretch                  8    25                       1.10423
+   18 Stretch                  9    10                       1.41029
+   19 Stretch                  9    15                       1.41507
+   20 Stretch                 10    11                       1.40774
+   21 Stretch                 11    12                       1.08504
+   22 Stretch                 11    13                       1.40772
+   23 Stretch                 13    14                       1.39240
+   24 Stretch                 13    22                       1.08376
+   25 Stretch                 14    15                       1.39682
+   26 Stretch                 14    23                       1.08321
+   27 Stretch                 15    24                       1.08563
+   28 Bend                     1     2     3               121.67213
+   29 Bend                     1     2    18               119.11975
+   30 Bend                     1     6     5               119.06446
+   31 Bend                     1     6    20               120.67422
+   32 Bend                     2     1     6               120.08182
+   33 Bend                     2     1    17               119.43480
+   34 Bend                     2     3     4               117.93979
+   35 Bend                     2     3     7               121.73237
+   36 Bend                     3     2    18               119.20811
+   37 Bend                     3     4     5               119.95788
+   38 Bend                     3     4     8               120.64520
+   39 Bend                     3     7    10               121.25469
+   40 Bend                     3     7    16               119.37265
+   41 Bend                     4     3     7               120.32784
+   42 Bend                     4     5     6               121.28392
+   43 Bend                     4     5    19               119.03805
+   44 Bend                     4     8     9               116.79922
+   45 Bend                     4     8    21               109.08811
+   46 Bend                     4     8    25               109.08811
+   47 Bend                     5     4     8               119.39692
+   48 Bend                     5     6    20               120.26132
+   49 Bend                     6     1    17               120.48337
+   50 Bend                     6     5    19               119.67803
+   51 Bend                     7    10     9               120.32784
+   52 Bend                     7    10    11               121.73237
+   53 Bend                     8     9    10               120.64520
+   54 Bend                     8     9    15               119.39692
+   55 Bend                     9     8    21               109.08811
+   56 Bend                     9     8    25               109.08811
+   57 Bend                     9    10    11               117.93979
+   58 Bend                     9    15    14               121.28392
+   59 Bend                     9    15    24               119.03805
+   60 Bend                    10     7    16               119.37265
+   61 Bend                    10     9    15               119.95788
+   62 Bend                    10    11    12               119.20811
+   63 Bend                    10    11    13               121.67213
+   64 Bend                    11    13    14               120.08182
+   65 Bend                    11    13    22               119.43480
+   66 Bend                    12    11    13               119.11975
+   67 Bend                    13    14    15               119.06446
+   68 Bend                    13    14    23               120.67422
+   69 Bend                    14    13    22               120.48337
+   70 Bend                    14    15    24               119.67803
+   71 Bend                    15    14    23               120.26132
+   72 Bend                    21     8    25               102.76806
+   73 Torsion                  1     2     3     4           0.00000
+   74 Torsion                  1     2     3     7         180.00000
+   75 Torsion                  1     6     5     4           0.00000
+   76 Torsion                  1     6     5    19         180.00000
+   77 Torsion                  2     1     6     5           0.00000
+   78 Torsion                  2     1     6    20         180.00000
+   79 Torsion                  2     3     4     5           0.00000
+   80 Torsion                  2     3     4     8         180.00000
+   81 Torsion                  2     3     7    10         180.00000
+   82 Torsion                  2     3     7    16           0.00000
+   83 Torsion                  3     2     1     6           0.00000
+   84 Torsion                  3     2     1    17         180.00000
+   85 Torsion                  3     4     5     6          -0.00000
+   86 Torsion                  3     4     5    19         180.00000
+   87 Torsion                  3     4     8     9           0.00000
+   88 Torsion                  3     4     8    21         124.22787
+   89 Torsion                  3     4     8    25        -124.22787
+   90 Torsion                  3     7    10     9           0.00000
+   91 Torsion                  3     7    10    11         180.00000
+   92 Torsion                  4     3     2    18         180.00000
+   93 Torsion                  4     3     7    10           0.00000
+   94 Torsion                  4     3     7    16         180.00000
+   95 Torsion                  4     5     6    20         180.00000
+   96 Torsion                  4     8     9    10           0.00000
+   97 Torsion                  4     8     9    15         180.00000
+   98 Torsion                  5     4     3     7         180.00000
+   99 Torsion                  5     4     8     9         180.00000
+  100 Torsion                  5     4     8    21         -55.77213
+  101 Torsion                  5     4     8    25          55.77213
+  102 Torsion                  5     6     1    17         180.00000
+  103 Torsion                  6     1     2    18         180.00000
+  104 Torsion                  6     5     4     8         180.00000
+  105 Torsion                  7     3     2    18           0.00000
+  106 Torsion                  7     3     4     8           0.00000
+  107 Torsion                  7    10     9     8           0.00000
+  108 Torsion                  7    10     9    15         180.00000
+  109 Torsion                  7    10    11    12           0.00000
+  110 Torsion                  7    10    11    13         180.00000
+  111 Torsion                  8     4     5    19           0.00000
+  112 Torsion                  8     9    10    11         180.00000
+  113 Torsion                  8     9    15    14         180.00000
+  114 Torsion                  8     9    15    24           0.00000
+  115 Torsion                  9    10     7    16         180.00000
+  116 Torsion                  9    10    11    12         180.00000
+  117 Torsion                  9    10    11    13          -0.00000
+  118 Torsion                  9    15    14    13           0.00000
+  119 Torsion                  9    15    14    23         180.00000
+  120 Torsion                 10     9     8    21        -124.22787
+  121 Torsion                 10     9     8    25         124.22787
+  122 Torsion                 10     9    15    14           0.00000
+  123 Torsion                 10     9    15    24         180.00000
+  124 Torsion                 10    11    13    14           0.00000
+  125 Torsion                 10    11    13    22         180.00000
+  126 Torsion                 11    10     7    16           0.00000
+  127 Torsion                 11    10     9    15           0.00000
+  128 Torsion                 11    13    14    15           0.00000
+  129 Torsion                 11    13    14    23         180.00000
+  130 Torsion                 12    11    13    14         180.00000
+  131 Torsion                 12    11    13    22           0.00000
+  132 Torsion                 13    14    15    24         180.00000
+  133 Torsion                 15     9     8    21          55.77213
+  134 Torsion                 15     9     8    25         -55.77213
+  135 Torsion                 15    14    13    22         180.00000
+  136 Torsion                 17     1     2    18           0.00000
+  137 Torsion                 17     1     6    20           0.00000
+  138 Torsion                 19     5     6    20           0.00000
+  139 Torsion                 22    13    14    23           0.00000
+  140 Torsion                 23    14    15    24           0.00000
+
+
+            XYZ format geometry
+            -------------------
+    25
+ geometry
+ C                    -3.70704000     0.00000000    -0.71944116
+ C                    -2.48101000     0.00000000    -1.41120116
+ C                    -1.24852000     0.00000000    -0.73097116
+ C                    -1.27203000     0.00000000     0.67911884
+ C                    -2.50965000     0.00000000     1.36521884
+ C                    -3.72281000     0.00000000     0.67286884
+ C                     0.00000000     0.00000000    -1.43369116
+ C                     0.00000000     0.00000000     1.46168884
+ C                     1.27203000     0.00000000     0.67911884
+ C                     1.24852000     0.00000000    -0.73097116
+ C                     2.48101000     0.00000000    -1.41120116
+ H                     2.48694000     0.00000000    -2.49622116
+ C                     3.70704000     0.00000000    -0.71944116
+ C                     3.72281000     0.00000000     0.67286884
+ C                     2.50965000     0.00000000     1.36521884
+ H                     0.00000000     0.00000000    -2.51629116
+ H                    -4.63471000     0.00000000    -1.27976116
+ H                    -2.48694000     0.00000000    -2.49622116
+ H                    -2.51032000     0.00000000     2.45084884
+ H                    -4.66066000     0.00000000     1.21488884
+ H                     0.00000000     0.86279000     2.15083884
+ H                     4.63471000     0.00000000    -1.27976116
+ H                     4.66066000     0.00000000     1.21488884
+ H                     2.51032000     0.00000000     2.45084884
+ H                     0.00000000    -0.86279000     2.15083884
+
+ ==============================================================================
+                                internuclear distances
+ ------------------------------------------------------------------------------
+       center one      |      center two      | atomic units |  angstroms
+ ------------------------------------------------------------------------------
+    2 C                |   1 C                |     2.66021  |     1.40772
+    3 C                |   2 C                |     2.66025  |     1.40774
+    4 C                |   3 C                |     2.66505  |     1.41029
+    5 C                |   4 C                |     2.67410  |     1.41507
+    6 C                |   1 C                |     2.63125  |     1.39240
+    6 C                |   5 C                |     2.63961  |     1.39682
+    7 C                |   3 C                |     2.70740  |     1.43270
+    8 C                |   4 C                |     2.82226  |     1.49348
+    9 C                |   8 C                |     2.82226  |     1.49348
+   10 C                |   7 C                |     2.70740  |     1.43270
+   10 C                |   9 C                |     2.66505  |     1.41029
+   11 C                |  10 C                |     2.66025  |     1.40774
+   12 H                |  11 C                |     2.05042  |     1.08504
+   13 C                |  11 C                |     2.66021  |     1.40772
+   14 C                |  13 C                |     2.63125  |     1.39240
+   15 C                |   9 C                |     2.67410  |     1.41507
+   15 C                |  14 C                |     2.63961  |     1.39682
+   16 H                |   7 C                |     2.04582  |     1.08260
+   17 H                |   1 C                |     2.04800  |     1.08376
+   18 H                |   2 C                |     2.05042  |     1.08504
+   19 H                |   5 C                |     2.05154  |     1.08563
+   20 H                |   6 C                |     2.04697  |     1.08321
+   21 H                |   8 C                |     2.08670  |     1.10423
+   22 H                |  13 C                |     2.04800  |     1.08376
+   23 H                |  14 C                |     2.04697  |     1.08321
+   24 H                |  15 C                |     2.05154  |     1.08563
+   25 H                |   8 C                |     2.08670  |     1.10423
+ ------------------------------------------------------------------------------
+                         number of included internuclear distances:         27
+ ==============================================================================
+
+
+
+ ==============================================================================
+                                 internuclear angles
+ ------------------------------------------------------------------------------
+        center 1       |       center 2       |       center 3       |  degrees
+ ------------------------------------------------------------------------------
+    2 C                |   1 C                |   6 C                |   120.08
+    2 C                |   1 C                |  17 H                |   119.43
+    6 C                |   1 C                |  17 H                |   120.48
+    1 C                |   2 C                |   3 C                |   121.67
+    1 C                |   2 C                |  18 H                |   119.12
+    3 C                |   2 C                |  18 H                |   119.21
+    2 C                |   3 C                |   4 C                |   117.94
+    2 C                |   3 C                |   7 C                |   121.73
+    4 C                |   3 C                |   7 C                |   120.33
+    3 C                |   4 C                |   5 C                |   119.96
+    3 C                |   4 C                |   8 C                |   120.65
+    5 C                |   4 C                |   8 C                |   119.40
+    4 C                |   5 C                |   6 C                |   121.28
+    4 C                |   5 C                |  19 H                |   119.04
+    6 C                |   5 C                |  19 H                |   119.68
+    1 C                |   6 C                |   5 C                |   119.06
+    1 C                |   6 C                |  20 H                |   120.67
+    5 C                |   6 C                |  20 H                |   120.26
+    3 C                |   7 C                |  10 C                |   121.25
+    3 C                |   7 C                |  16 H                |   119.37
+   10 C                |   7 C                |  16 H                |   119.37
+    4 C                |   8 C                |   9 C                |   116.80
+    4 C                |   8 C                |  21 H                |   109.09
+    4 C                |   8 C                |  25 H                |   109.09
+    9 C                |   8 C                |  21 H                |   109.09
+    9 C                |   8 C                |  25 H                |   109.09
+   21 H                |   8 C                |  25 H                |   102.77
+    8 C                |   9 C                |  10 C                |   120.65
+    8 C                |   9 C                |  15 C                |   119.40
+   10 C                |   9 C                |  15 C                |   119.96
+    7 C                |  10 C                |   9 C                |   120.33
+    7 C                |  10 C                |  11 C                |   121.73
+    9 C                |  10 C                |  11 C                |   117.94
+   10 C                |  11 C                |  12 H                |   119.21
+   10 C                |  11 C                |  13 C                |   121.67
+   12 H                |  11 C                |  13 C                |   119.12
+   11 C                |  13 C                |  14 C                |   120.08
+   11 C                |  13 C                |  22 H                |   119.43
+   14 C                |  13 C                |  22 H                |   120.48
+   13 C                |  14 C                |  15 C                |   119.06
+   13 C                |  14 C                |  23 H                |   120.67
+   15 C                |  14 C                |  23 H                |   120.26
+    9 C                |  15 C                |  14 C                |   121.28
+    9 C                |  15 C                |  24 H                |   119.04
+   14 C                |  15 C                |  24 H                |   119.68
+ ------------------------------------------------------------------------------
+                            number of included internuclear angles:         45
+ ==============================================================================
+
+
+
+
+
+ Summary of "ao basis" -> "" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ *                        6-31G(2df,p)                on all atoms 
+
+
+ tddft_input: filename not found; default name will be used
+
+                                 NWChem DFT Module
+                                 -----------------
+
+
+                                       Title
+
+
+                      Basis "ao basis" -> "ao basis" (cartesian)
+                      -----
+  C (Carbon)
+  ----------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  3.04752490E+03  0.001835
+  1 S  4.57369510E+02  0.014037
+  1 S  1.03948690E+02  0.068843
+  1 S  2.92101550E+01  0.232184
+  1 S  9.28666300E+00  0.467941
+  1 S  3.16392700E+00  0.362312
+
+  2 S  7.86827240E+00 -0.119332
+  2 S  1.88128850E+00 -0.160854
+  2 S  5.44249300E-01  1.143456
+
+  3 P  7.86827240E+00  0.068999
+  3 P  1.88128850E+00  0.316424
+  3 P  5.44249300E-01  0.744308
+
+  4 S  1.68714400E-01  1.000000
+
+  5 P  1.68714400E-01  1.000000
+
+  6 D  1.25200000E+00  1.000000
+
+  7 D  3.13000000E-01  1.000000
+
+  8 F  8.00000000E-01  1.000000
+
+  H (Hydrogen)
+  ------------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  1.87311370E+01  0.033495
+  1 S  2.82539370E+00  0.234727
+  1 S  6.40121700E-01  0.813757
+
+  2 S  1.61277800E-01  1.000000
+
+  3 P  1.50000000E+00  1.000000
+
+  4 P  3.75000000E-01  1.000000
+
+
+
+ Summary of "ao basis" -> "ao basis" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ C                        6-31G(2df,p)               8       31   3s2p2d1f
+ H                        6-31G(2df,p)               4        8   2s2p
+
+
+
+
+ Summary of "ao basis" -> "ao basis" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ C                        6-31G(2df,p)               8       31   3s2p2d1f
+ H                        6-31G(2df,p)               4        8   2s2p
+
+
+      Symmetry analysis of basis
+      --------------------------
+
+        a1        188
+        a2         76
+        b1        168
+        b2         90
+
+  Caching 1-el integrals 
+
+            General Information
+            -------------------
+          SCF calculation type: DFT
+          Wavefunction type:  closed shell.
+          No. of atoms     :    25
+          No. of electrons :    94
+           Alpha electrons :    47
+            Beta electrons :    47
+          Charge           :     1
+          Spin multiplicity:     1
+          Use of symmetry is: off; symmetry adaption is: on 
+          Maximum number of iterations:  30
+          AO basis - number of functions:   522
+                     number of shells:   156
+          Convergence on energy requested:  1.00D-06
+          Convergence on density requested:  1.00D-05
+          Convergence on gradient requested:  5.00D-04
+
+              XC Information
+              --------------
+                       M06-2X Method XC Functional
+                     Hartree-Fock (Exact) Exchange  0.540          
+                        M06-2X Exchange Functional  1.000          
+                      M06-2X Correlation Potential  1.000          
+
+             Grid Information
+             ----------------
+          Grid used for XC integration:  medium    
+          Radial quadrature: Mura-Knowles        
+          Angular quadrature: Lebedev. 
+          Tag              B.-S. Rad. Rad. Pts. Rad. Cut. Ang. Pts.
+          ---              ---------- --------- --------- ---------
+          C                   0.70       49          14.0       434
+          H                   0.35       45          14.0       434
+          Grid pruning is: on 
+          Number of quadrature shells:  1181
+          Spatial weights used:  Erf1
+
+          Convergence Information
+          -----------------------
+          Convergence aids based upon iterative change in 
+          total energy or number of iterations. 
+          Levelshifting, if invoked, occurs when the 
+          HOMO/LUMO gap drops below (HL_TOL):  1.00D-02
+          DIIS, if invoked, will attempt to extrapolate 
+          using up to (NFOCK): 10 stored Fock matrices.
+
+                    Damping( 0%)  Levelshifting(0.5)       DIIS
+                  --------------- ------------------- ---------------
+          dE  on:    start            ASAP                start   
+          dE off:    2 iters         30 iters            30 iters 
+
+
+      Screening Tolerance Information
+      -------------------------------
+          Density screening/tol_rho:  1.00D-10
+          AO Gaussian exp screening on grid/accAOfunc:  14
+          CD Gaussian exp screening on grid/accCDfunc:  20
+          XC Gaussian exp screening on grid/accXCfunc:  20
+          Schwarz screening/accCoul:  1.00D-08
+
+
+      Superposition of Atomic Density Guess
+      -------------------------------------
+
+ Sum of atomic energies:        -532.72411601
+
+ Renormalizing density from      95.00 to     94
+
+      Non-variational initial energy
+      ------------------------------
+
+ Total energy =    -538.753970
+ 1-e energy   =   -2235.432770
+ 2-e energy   =     919.421715
+ HOMO         =      -0.449848
+ LUMO         =      -0.325877
+
+
+      Symmetry analysis of molecular orbitals - initial
+      -------------------------------------------------
+
+  Numbering of irreducible representations: 
+
+     1 a1          2 a2          3 b1          4 b2      
+
+  Orbital symmetries:
+
+     1 a1          2 b1          3 a1          4 b1          5 a1      
+     6 a1          7 a1          8 b1          9 b1         10 a1      
+    11 b1         12 a1         13 b1         14 a1         15 a1      
+    16 b1         17 a1         18 a1         19 b1         20 b1      
+    21 a1         22 a1         23 b1         24 a1         25 b1      
+    26 a1         27 b1         28 a1         29 b1         30 a1      
+    31 b2         32 a1         33 b1         34 b1         35 a1      
+    36 b1         37 a2         38 a1         39 b2         40 a1      
+    41 b1         42 b2         43 a1         44 b1         45 a2      
+    46 a2         47 b2         48 b2         49 b2         50 a2      
+    51 a2         52 b2         53 a1         54 b1         55 a1      
+    56 b2         57 a2      
+
+   Time after variat. SCF:     17.8
+   Time prior to 1st pass:     17.8
+
+ Integral file          = ./molecule.aoints.0
+ Record size in doubles =  65536        No. of integs per rec  =  32766
+ Max. records in memory =      0        Max. records in file   =   4036
+ No. of bits per label  =     16        No. of bits per value  =     64
+
+
+ #quartets = 2.709D+07 #integrals = 1.595D+09 #direct = 91.7% #cached =  8.3%
+
+
+ Grid_pts file          = ./molecule.gridpts.0
+ Record size in doubles =  12289        No. of grid_pts per rec  =   3070
+ Max. records in memory =    185        Max. recs in file   =      1996
+
+
+ !! scf_movecs_sym_adapt:  379 vectors were symmetry contaminated
+
+  Symmetry fudging
+
+ !! scf_movecs_sym_adapt:   22 vectors were symmetry contaminated
+
+
+           Memory utilization after 1st SCF pass: 
+           Heap Space remaining (MW):       10.82            10817864
+          Stack Space remaining (MW):       13.10            13103852
+
+   convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
+ ---------------- ----- ----------------- --------- --------- ---------  ------
+ d= 0,ls=0.0,diis     1   -539.5542252411 -1.32D+03  2.59D-03  1.56D+00   269.2
+
+ !! scf_movecs_sym_adapt:  374 vectors were symmetry contaminated
+
+  Symmetry fudging
+
+ !! scf_movecs_sym_adapt:   33 vectors were symmetry contaminated
+
+ d= 0,ls=0.0,diis     2   -539.6529682216 -9.87D-02  1.11D-03  2.41D-01   462.2
+
+ !! scf_movecs_sym_adapt:  362 vectors were symmetry contaminated
+
+  Symmetry fudging
+
+ !! scf_movecs_sym_adapt:   14 vectors were symmetry contaminated
+
+ d= 0,ls=0.0,diis     3   -539.6649953995 -1.20D-02  5.00D-04  1.51D-01   656.7
+
+ !! scf_movecs_sym_adapt:  285 vectors were symmetry contaminated
+
+  Symmetry fudging
+
+ !! scf_movecs_sym_adapt:    4 vectors were symmetry contaminated
+
+ d= 0,ls=0.0,diis     4   -539.6832917413 -1.83D-02  1.23D-04  3.63D-03   868.8
+                60716                58948                62892                15991                    1           3991860652   0.0000000000000000     
+ ------------------------------------------------------------------------
+ int2e_buf_cntr_unpack: invalid count               60716
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+    58: task tddft energy
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ This error has not yet been assigned to a category
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 60716.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
