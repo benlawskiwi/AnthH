@@ -1,0 +1,49 @@
+#!/bin/bash
+#PBS -l walltime=6:00:00
+#PBS -l ncpus=8
+#PBS -l mem=32GB
+#PBS -l jobfs=50GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35 
+#PBS -q normal 
+
+module load gaussian
+g16 < irc_sp_4.txt > irc_sp_4.out 2>&1
+formchk check_sp_4.chk check_sp_4.fchk
+
+g16 < irc_sp_5.txt > irc_sp_5.out 2>&1
+formchk check_sp_5.chk check_sp_5.fchk
+
+g16 < irc_sp_6.txt > irc_sp_6.out 2>&1
+g16 < irc_sp_7.txt > irc_sp_7.out 2>&1
+g16 < irc_sp_8.txt > irc_sp_8.out 2>&1
+g16 < irc_sp_9.txt > irc_sp_9.out 2>&1
+g16 < irc_sp_10.txt > irc_sp_10.out 2>&1
+g16 < irc_sp_11.txt > irc_sp_11.out 2>&1
+g16 < irc_sp_12.txt > irc_sp_12.out 2>&1
+g16 < irc_sp_13.txt > irc_sp_13.out 2>&1
+g16 < irc_sp_14.txt > irc_sp_14.out 2>&1
+g16 < irc_sp_15.txt > irc_sp_15.out 2>&1
+g16 < irc_sp_16.txt > irc_sp_16.out 2>&1
+g16 < irc_sp_17.txt > irc_sp_17.out 2>&1
+g16 < irc_sp_18.txt > irc_sp_18.out 2>&1
+g16 < irc_sp_19.txt > irc_sp_19.out 2>&1
+g16 < irc_sp_20.txt > irc_sp_20.out 2>&1
+
+formchk check_sp_6.chk check_sp_6.fchk
+formchk check_sp_7.chk check_sp_7.fchk
+formchk check_sp_8.chk check_sp_8.fchk
+formchk check_sp_9.chk check_sp_9.fchk
+formchk check_sp_10.chk check_sp_10.fchk
+formchk check_sp_11.chk check_sp_11.fchk
+formchk check_sp_12.chk check_sp_12.fchk
+formchk check_sp_13.chk check_sp_13.fchk
+formchk check_sp_14.chk check_sp_14.fchk
+formchk check_sp_15.chk check_sp_15.fchk
+formchk check_sp_16.chk check_sp_16.fchk
+formchk check_sp_17.chk check_sp_17.fchk
+formchk check_sp_18.chk check_sp_18.fchk
+formchk check_sp_19.chk check_sp_19.fchk
+formchk check_sp_20.chk check_sp_20.fchk
+

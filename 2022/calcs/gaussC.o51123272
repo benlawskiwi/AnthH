@@ -1,0 +1,21 @@
+ Read checkpoint file check_sp_2.chk type G16
+ Write formatted file check_sp_2.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_3.chk type G16
+ Write formatted file check_sp_3.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+
+======================================================================================
+                  Resource Usage on 2022-07-14 13:05:27:
+   Job Id:             51123272.gadi-pbs
+   Project:            y35
+   Exit Status:        0
+   Service Units:      4.86
+   NCPUs Requested:    8                      NCPUs Used: 8               
+                                           CPU Time Used: 02:19:11                                   
+   Memory Requested:   32.0GB                Memory Used: 1.08GB          
+   Walltime requested: 02:00:00            Walltime Used: 00:18:14        
+   JobFS requested:    50.0GB                 JobFS used: 106.47MB        
+======================================================================================

@@ -1,0 +1,81 @@
+ Read checkpoint file check_sp_4.chk type G16
+ Write formatted file check_sp_4.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_5.chk type G16
+ Write formatted file check_sp_5.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_6.chk type G16
+ Write formatted file check_sp_6.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_7.chk type G16
+ Write formatted file check_sp_7.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_8.chk type G16
+ Write formatted file check_sp_8.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_9.chk type G16
+ Write formatted file check_sp_9.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_10.chk type G16
+ Write formatted file check_sp_10.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_11.chk type G16
+ Write formatted file check_sp_11.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_12.chk type G16
+ Write formatted file check_sp_12.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_13.chk type G16
+ Write formatted file check_sp_13.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_14.chk type G16
+ Write formatted file check_sp_14.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_15.chk type G16
+ Write formatted file check_sp_15.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_16.chk type G16
+ Write formatted file check_sp_16.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_17.chk type G16
+ Write formatted file check_sp_17.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_18.chk type G16
+ Write formatted file check_sp_18.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_19.chk type G16
+ Write formatted file check_sp_19.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Read checkpoint file check_sp_20.chk type G16
+ Write formatted file check_sp_20.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+
+======================================================================================
+                  Resource Usage on 2022-07-14 15:58:05:
+   Job Id:             51125639.gadi-pbs
+   Project:            y35
+   Exit Status:        0
+   Service Units:      44.97
+   NCPUs Requested:    8                      NCPUs Used: 8               
+                                           CPU Time Used: 20:57:13                                   
+   Memory Requested:   32.0GB                Memory Used: 1.44GB          
+   Walltime requested: 06:00:00            Walltime Used: 02:48:38        
+   JobFS requested:    50.0GB                 JobFS used: 108.61MB        
+======================================================================================
