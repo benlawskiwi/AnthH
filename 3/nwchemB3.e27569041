@@ -1,0 +1,254 @@
+Loading nwchem/7.0.0
+  Loading requirement: openmpi/4.0.2
+=>> PBS: job killed: walltime 86478 exceeded limit 86400
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014DF44298B20  Unknown               Unknown  Unknown
+nwchem             0000000001C67C6D  conv1x_2_                 149  convert.f
+nwchem             0000000001B8F11A  erinteg_2_.a             1579  spec_calcint.F
+nwchem             0000000001B83A33  oneblock_.a               609  spec_calcint.F
+nwchem             0000000001B7B4EF  calcint2_.a               251  spec_calcint.F
+nwchem             0000000001B281FD  texas_hf2_m_.a            288  texas_hf.F
+nwchem             00000000019A259F  intb_2e4c_                165  intb_2e4c.F
+nwchem             00000000013352C2  newfock_.a                751  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014DF423A4493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014D58D5F6B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC845B  comex_make_progre         277  comex.c
+nwchem             0000000005FC056C  comex_nbgets.a            303  comex.c
+nwchem             0000000005F97094  PARMCI_NbGetS             507  armci.c
+nwchem             0000000005E0466C  pnga_get.a                508  onesided.c
+nwchem             00000000013345D3  newfock_.a                926  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D58B702493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014AF9380AB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC41C6  _acc_nbi.a                139  comex.c
+nwchem             0000000005FAE336  comex_accs.a              998  comex.c
+nwchem             0000000005F95D98  PARMCI_AccS               174  armci.c
+nwchem             0000000005E0EA58  pnga_acc.a               1289  onesided.c
+nwchem             0000000001336D21  newfock_.a               1073  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AF91916493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000147CCADE5B20  Unknown               Unknown  Unknown
+nwchem             00000000060E5D24  Unknown               Unknown  Unknown
+nwchem             0000000001C69C8F  trobsa_2_.a               565  trobsa.F
+nwchem             0000000001B8F27F  erinteg_2_.a             1606  spec_calcint.F
+nwchem             0000000001B83A33  oneblock_.a               609  spec_calcint.F
+nwchem             0000000001B7B4EF  calcint2_.a               251  spec_calcint.F
+nwchem             0000000001B281FD  texas_hf2_m_.a            288  texas_hf.F
+nwchem             00000000019A259F  intb_2e4c_                165  intb_2e4c.F
+nwchem             00000000013352C2  newfock_.a                751  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000147CC8EF1493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014F5E09C5B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC84EA  comex_make_progre         147  comex.c
+nwchem             0000000005FC429E  _acc_nbi.a                303  comex.c
+nwchem             0000000005FAE336  comex_accs.a              998  comex.c
+nwchem             0000000005F95D98  PARMCI_AccS               174  armci.c
+nwchem             0000000005E0EA58  pnga_acc.a               1289  onesided.c
+nwchem             0000000001336D21  newfock_.a               1073  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014F5DEAD1493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014B43CFECB20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802434:0:1802434] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001509BAF57B20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802419:0:1802419] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2667422d0)
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000015501410AB20  Unknown               Unknown  Unknown
+libmpi.so.40.20.2  0000155012605D80  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.20.2  000015501262F705  PMPI_Test             Unknown  Unknown
+nwchem             0000000005FC836F  comex_make_progre         214  comex.c
+nwchem             0000000005FC429E  _acc_nbi.a                303  comex.c
+nwchem             0000000005FAE336  comex_accs.a              998  comex.c
+nwchem             0000000005F95D98  PARMCI_AccS               174  armci.c
+nwchem             0000000005E0EA58  pnga_acc.a               1289  onesided.c
+nwchem             00000000013446D8  new_acc_fock_bloc        1073  shell_fock_build.F
+nwchem             0000000001336825  newfock_.a                811  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+nwchem             0000000000414315  MAIN__.a                  320  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000155012216493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014657B751B20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802422:0:1802422] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014C6072B4B20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802423:0:1802423] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000150C44FAAB20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802425:0:1802425] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000151D30105B20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802426:0:1802426] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001509CFD21B20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802427:0:1802427] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014EC1888BB20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802430:0:1802430] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001466BDFD6B20  Unknown               Unknown  Unknown
+libmpi.so.40.20.2  00001466BC4D1D80  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.20.2  00001466BC4FB705  PMPI_Test             Unknown  Unknown
+nwchem             0000000005FC836F  comex_make_progre         214  comex.c
+nwchem             0000000005FC429E  _acc_nbi.a                303  comex.c
+nwchem             0000000005FAE336  comex_accs.a              998  comex.c
+nwchem             0000000005F95D98  PARMCI_AccS               174  armci.c
+nwchem             0000000005E0EA58  pnga_acc.a               1289  onesided.c
+nwchem             00000000013446D8  new_acc_fock_bloc        1073  shell_fock_build.F
+nwchem             0000000001336D6F  newfock_.a                820  shell_fock_build.F
+nwchem             000000000132FDCC  shell_fock_build_         208  shell_fock_build.F
+nwchem             00000000009756CD  tddft_nga_cont_           461  tddft_contract.F
+nwchem             0000000000A0C577  tddft_grad_solve_         107  tddft_grad_solve_product.F
+nwchem             0000000001625471  ga_lkain_                 583  ga_it2.F
+nwchem             0000000000A0A311  tddft_grad_solve_         226  tddft_grad_solve.F
+nwchem             00000000009D882B  tddft_gradient_.a         306  tddft_gradient.F
+nwchem             000000000044635E  task_gradient_doi         405  task_gradient.F
+nwchem             00000000004442E9  task_gradient_.a          120  task_gradient.F
+nwchem             00000000008CFFDB  run_bead_list_            475  bead_list.F
+nwchem             00000000008D09C7  runmid_bead_list_         614  bead_list.F
+nwchem             00000000008AC78D  neb_.a                    493  neb_drv.F
+nwchem             0000000000421725  task_.a                   395  task.F
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802431:0:1802431] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014CE992CFB20  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2519:1802432:0:1802432] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))

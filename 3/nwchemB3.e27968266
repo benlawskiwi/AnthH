@@ -1,0 +1,44 @@
+Loading nwchem/7.0.0
+  Loading requirement: openmpi/4.0.2
+16:driver: task_gradient failed:Received an Error in Communication
+0:driver: task_gradient failed:Received an Error in Communication
+1:driver: task_gradient failed:Received an Error in Communication
+11:driver: task_gradient failed:30:driver: task_gradient failed:Received an Error in Communication
+4:driver: task_gradient failed:Received an Error in Communication
+15:driver: task_gradient failed:Received an Error in Communication
+21:driver: task_gradient failed:Received an Error in Communication
+25:driver: task_gradient failed:Received an Error in Communication
+29:driver: task_gradient failed:Received an Error in Communication
+31:driver: task_gradient failed:Received an Error in Communication
+2:driver: task_gradient failed:Received an Error in Communication
+3:driver: task_gradient failed:Received an Error in Communication
+5:driver: task_gradient failed:Received an Error in Communication
+6:driver: task_gradient failed:Received an Error in Communication
+7:driver: task_gradient failed:Received an Error in Communication
+8:driver: task_gradient failed:Received an Error in Communication
+9:driver: task_gradient failed:Received an Error in Communication
+10:driver: task_gradient failed:Received an Error in Communication
+12:driver: task_gradient failed:Received an Error in Communication
+13:driver: task_gradient failed:Received an Error in Communication
+14:driver: task_gradient failed:Received an Error in Communication
+Received an Error in Communication
+17:driver: task_gradient failed:Received an Error in Communication
+18:driver: task_gradient failed:Received an Error in Communication
+19:driver: task_gradient failed:Received an Error in Communication
+20:driver: task_gradient failed:Received an Error in Communication
+22:driver: task_gradient failed:Received an Error in Communication
+23:driver: task_gradient failed:Received an Error in Communication
+24:driver: task_gradient failed:Received an Error in Communication
+26:driver: task_gradient failed:Received an Error in Communication
+27:driver: task_gradient failed:Received an Error in Communication
+28:driver: task_gradient failed:Received an Error in Communication
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[gadi-cpu-clx-1132.gadi.nci.org.au:1876372] 31 more processes have sent help message help-mpi-api.txt / mpi-abort
+[gadi-cpu-clx-1132.gadi.nci.org.au:1876372] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < irc_sp_22.txt > irc_sp_22.out 2>&1
+g16 < irc_sp_23.txt > irc_sp_23.out 2>&1
+g16 < irc_sp_24.txt > irc_sp_24.out 2>&1
+
+

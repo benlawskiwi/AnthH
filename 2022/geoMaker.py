@@ -4,17 +4,17 @@ xx = []
 yy = []
 zz = []
 #select geometry
-geo = 2
+geo = 17
 
 #First row
-a,b,c = np.loadtxt('IRC.txt',skiprows=geo,usecols=(4,5,6),unpack=True,max_rows=1,delimiter=',')
+a,b,c = np.loadtxt('IRC6.txt',skiprows=geo,usecols=(4,5,6),unpack=True,max_rows=1,delimiter=',')
 xx.append(a)
 yy.append(b)
 zz.append(c)
 
 #Now main text
 for i in range(0,14):
-    a,b,c,d,e = np.loadtxt('IRC.txt',skiprows=geo+10*(i+1),usecols=(2,3,4,5,6),unpack=True,max_rows=1,delimiter=',')
+    a,b,c,d,e = np.loadtxt('IRC6.txt',skiprows=geo+18*(i+1),usecols=(2,3,4,5,6),unpack=True,max_rows=1,delimiter=',')
     if i%3 == 1:
         zz.append(a)
         xx.append(b)
@@ -35,7 +35,7 @@ for i in range(0,14):
         yy.append(e)
 
 #Now last row
-a,b = np.loadtxt('IRC.txt',skiprows=geo+10*15,usecols=(2,3),unpack=True,max_rows=1,delimiter=',')
+a,b = np.loadtxt('IRC6.txt',skiprows=geo+18*15,usecols=(2,3),unpack=True,max_rows=1,delimiter=',')
 yy.append(a)
 zz.append(b)
 

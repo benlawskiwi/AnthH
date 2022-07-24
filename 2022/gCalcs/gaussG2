@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -l walltime=6:00:00
+#PBS -l ncpus=8
+#PBS -l mem=32GB
+#PBS -l jobfs=50GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35 
+#PBS -q normal 
+
+module load gaussian
+
+g16 < irc_sp_-0.txt > irc_sp_-0.out 2>&1
+g16 < irc_sp_-1.txt > irc_sp_-1.out 2>&1
+g16 < irc_sp_-2.txt > irc_sp_-2.out 2>&1
+g16 < irc_sp_-3.txt > irc_sp_-3.out 2>&1
+g16 < irc_sp_-4.txt > irc_sp_-4.out 2>&1
+g16 < irc_sp_-5.txt > irc_sp_-5.out 2>&1
+g16 < irc_sp_-6.txt > irc_sp_-6.out 2>&1
+g16 < irc_sp_-7.txt > irc_sp_-7.out 2>&1
+g16 < irc_sp_-8.txt > irc_sp_-8.out 2>&1
+g16 < irc_sp_-9.txt > irc_sp_-9.out 2>&1
+g16 < irc_sp_-10.txt > irc_sp_-10.out 2>&1
+g16 < irc_sp_-11.txt > irc_sp_-11.out 2>&1
+g16 < irc_sp_-12.txt > irc_sp_-12.out 2>&1
+g16 < irc_sp_-13.txt > irc_sp_-13.out 2>&1
+g16 < irc_sp_-14.txt > irc_sp_-14.out 2>&1
+g16 < irc_sp_-15.txt > irc_sp_-15.out 2>&1
+g16 < irc_sp_-16.txt > irc_sp_-16.out 2>&1
+g16 < irc_sp_-17.txt > irc_sp_-17.out 2>&1
+g16 < irc_sp_-18.txt > irc_sp_-18.out 2>&1
+g16 < irc_sp_-19.txt > irc_sp_-19.out 2>&1
+g16 < irc_sp_-20.txt > irc_sp_-20.out 2>&1
+
+
+

@@ -1,0 +1,10 @@
+%NProcShared=8
+%mem = 32GB
+%Chk=check_ts2
+#n wB97XD/6-311++G(d,p) TD Opt=(TS,CalcAll) Geom=AllCheck 
+
+ Title
+
+
+
+

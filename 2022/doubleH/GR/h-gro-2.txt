@@ -1,0 +1,10 @@
+%NProcShared=8
+%mem = 32GB
+%Chk=check_gr2
+#n wB97XD/6-311++G(d,p) Opt=(CalcAll) IOp(2/15=4,2/16=2) Geom=AllCheck
+
+ Title
+
+
+
+

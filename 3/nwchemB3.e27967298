@@ -1,0 +1,404 @@
+Loading nwchem/7.0.0
+  Loading requirement: openmpi/4.0.2
+0:xc_input: invalid format:Received an Error in Communication
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014C3F58D9B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C3F39E5493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014C9C6358B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6779  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C9C4464493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014D75101DB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC677B  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D74F129493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000015192E652B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC677B  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000015192C75E493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000147A3FEA4B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC8304  comex_make_progre         309  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000147A3DFB0493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001540A8F63B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001540A706F493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000147865C1CB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC84A3  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000147863D28493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014C90ECD5B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC67C8  comex_barrier.a          1238  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C90CDE1493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001492BB806B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001492B9912493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014D18F3ABB20  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014D17CF92CB9  ucp_tag_probe_nb      Unknown  Unknown
+mca_pml_ucx.so     000014D17D3E0509  mca_pml_ucx_iprob     Unknown  Unknown
+libmpi.so.40.20.2  000014D18D8CA0F0  PMPI_Iprobe           Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D18D4B7493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001534141D6B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001534122E2493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014B8E35CEB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014B8E16DA493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000148DE1B19B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC677B  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000148DDFC25493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001464E7265B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6764  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001464E5371493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014ABDF518B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC677B  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014ABDD624493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001468579FDB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC677F  comex_barrier.a          1231  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000146855B09493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014A719FD1B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC676B  comex_barrier.a          1233  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014A7180DD493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000153E780F5B20  Unknown               Unknown  Unknown
+nwchem             0000000000413590  Unknown               Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000153E76201493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001527F2471B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6779  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001527F057D493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000145A0DE9CB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC675D  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000145A0BFA8493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000152DF47C6B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000152DF28D2493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000152410C77B20  Unknown               Unknown  Unknown
+libucp.so.0.0.0    00001523FA6C00FE  ucp_worker_progre     Unknown  Unknown
+mca_pml_ucx.so     000015240036E57B  mca_pml_ucx_iprob     Unknown  Unknown
+libmpi.so.40.20.2  000015240F1960F0  PMPI_Iprobe           Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000015240ED83493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001521985F5B20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000152196701493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001493BCDC8B20  Unknown               Unknown  Unknown
+mca_pml_ucx.so     00001493AC4724E4  mca_pml_ucx_iprob     Unknown  Unknown
+libmpi.so.40.20.2  00001493BB2E70F0  PMPI_Iprobe           Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001493BAED4493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000147BCCFCCB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6779  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000147BCB0D8493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001526A0CADB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000015269EDB9493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000146D368BDB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000146D349C9493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  0000148A3BBEAB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       0000148A39CF6493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000014AC855AFB20  Unknown               Unknown  Unknown
+nwchem             0000000005FC6762  comex_barrier.a          1230  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AC836BB493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  000015137C788B20  Unknown               Unknown  Unknown
+mca_pml_ucx.so     00001513667134A9  mca_pml_ucx_iprob     Unknown  Unknown
+libmpi.so.40.20.2  000015137ACA70F0  PMPI_Iprobe           Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       000015137A894493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+nwchem             00000000060232F4  Unknown               Unknown  Unknown
+libpthread-2.28.s  00001487420ADB20  Unknown               Unknown  Unknown
+mca_pml_ucx.so     00001487300C44A9  mca_pml_ucx_iprob     Unknown  Unknown
+libmpi.so.40.20.2  00001487405CC0F0  PMPI_Iprobe           Unknown  Unknown
+nwchem             0000000005FC84B8  comex_make_progre         337  comex.c
+nwchem             0000000005FC674D  comex_barrier.a          1226  comex.c
+nwchem             0000000005F9F013  parmci_msg_barrie         542  message.c
+nwchem             0000000005DF4AEF  pnga_sync                 182  onesided.c
+nwchem             000000000041C332  input_parse_              374  input_parse.F
+nwchem             00000000004142B3  MAIN__.a                  310  nwchem.F
+nwchem             0000000000413DA2  Unknown               Unknown  Unknown
+libc-2.28.so       00001487401B9493  __libc_start_main     Unknown  Unknown
+nwchem             0000000000413CAE  Unknown               Unknown  Unknown

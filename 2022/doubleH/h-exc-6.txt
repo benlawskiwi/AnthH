@@ -1,0 +1,10 @@
+%NProcShared=8
+%mem = 32GB
+%Chk=check_ex6
+#n M062X/cc-pvtz TD EmpiricalDispersion=GD3 Opt=(CalcAll) IOp(2/15=4,2/16=2) Geom=AllCheck
+
+ Title
+
+
+
+

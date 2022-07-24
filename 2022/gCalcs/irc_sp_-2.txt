@@ -1,7 +1,7 @@
 %NProcShared=8
 %mem = 32GB
 %Chk=check_sp_2
-#n M062X/6-311++G(d,p) SP pop=reg
+#n M062X/6-311++G(d,p) SP pop=reg formcheck
  
  SP_-2
 

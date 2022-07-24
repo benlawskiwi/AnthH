@@ -1,12 +1,21 @@
- wB2PLYP def2-TZVP def2-TZVP/C D3BJ TightSCF Keepdens NumFreq
-%geom
-Calc_Hess true # Calculate Hessian in the beginning
-NumHess true # Request numerical Hessian (analytical not available)
-Recalc_Hess 5  # Recalculate the Hessian every 5 steps
-end
-%tddft
-Nroots 2 # The number of excited states to calculate.
-MaxDim 5
-IRoot 1 # Selecting the excited state (here no. 2) to perform a geometry optimization on.
-end
-Hello this is my test!
+-539.7119686
+-539.7120948
+-539.7121829
+-539.712237
+-539.7122617
+-539.7122622
+-539.7122444
+-539.7122147
+-539.7121789
+-539.712143
+-539.7121317
+-539.7121127
+-539.7121061
+-539.7121124
+-539.71213
+-539.712138
+-539.7121672
+-539.7121933
+-539.71221
+-539.7122108
+-539.7121894

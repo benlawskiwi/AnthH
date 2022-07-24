@@ -1,0 +1,158 @@
+Loading nwchem/7.0.0
+  Loading requirement: openmpi/4.0.2
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489787:0:2489798] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489757:0:2489791] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489758:0:2489758] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489759:0:2489759] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489760:0:2489760] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+                   00000000060232F4  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+*** stack smashing detected ***: <unknown> terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489762:0:2489810] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489763:0:2489763] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489764:0:2489794] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489765:0:2489765] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489766:0:2489766] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489767:0:2489767] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489769:0:2489769] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489768:0:2489768] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489771:0:2489771] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489770:0:2489819] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489773:0:2489773] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489772:0:2489772] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489775:0:2489775] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489774:0:2489795] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489776:0:2489776] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489777:0:2489777] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489780:0:2489780] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489778:0:2489778] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489779:0:2489779] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489781:0:2489854] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489784:0:2489801] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489783:0:2489783] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489785:0:2489803] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489788:0:2489799] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+
+Stack trace terminated abnormally.
+[gadi-cpu-clx-2517:2489786:0:2489786] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
