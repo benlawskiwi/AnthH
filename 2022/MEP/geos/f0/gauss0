@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < f_sp_-20.txt > f_sp_-20.out 2>&1
+g16 < f_sp_-18.txt > f_sp_-18.out 2>&1
+g16 < f_sp_-16.txt > f_sp_-16.out 2>&1
+g16 < f_sp_-14.txt > f_sp_-14.out 2>&1
+g16 < f_sp_-12.txt > f_sp_-12.out 2>&1
+g16 < f_sp_-10.txt > f_sp_-10.out 2>&1
+g16 < f_sp_-8.txt > f_sp_-8.out 2>&1
+g16 < f_sp_-6.txt > f_sp_-6.out 2>&1
+g16 < f_sp_-4.txt > f_sp_-4.out 2>&1
+g16 < f_sp_-2.txt > f_sp_-2.out 2>&1
+g16 < f_sp_0.txt > f_sp_0.out 2>&1
+g16 < f_sp_2.txt > f_sp_2.out 2>&1
+g16 < f_sp_4.txt > f_sp_4.out 2>&1
+g16 < f_sp_6.txt > f_sp_6.out 2>&1
+g16 < f_sp_8.txt > f_sp_8.out 2>&1
+g16 < f_sp_10.txt > f_sp_10.out 2>&1
+g16 < f_sp_12.txt > f_sp_12.out 2>&1
+g16 < f_sp_14.txt > f_sp_14.out 2>&1
+g16 < f_sp_16.txt > f_sp_16.out 2>&1
+g16 < f_sp_18.txt > f_sp_18.out 2>&1
+g16 < f_sp_20.txt > f_sp_20.out 2>&1

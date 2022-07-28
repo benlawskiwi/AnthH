@@ -1,0 +1,111 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=32
+#PBS -l mem=128GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < s_sp_0_0.txt > s_sp_0_0.out 2>&1
+g16 < s_sp_0_2.txt > s_sp_0_2.out 2>&1
+g16 < s_sp_0_4.txt > s_sp_0_4.out 2>&1
+g16 < s_sp_0_6.txt > s_sp_0_6.out 2>&1
+g16 < s_sp_0_8.txt > s_sp_0_8.out 2>&1
+g16 < s_sp_0_10.txt > s_sp_0_10.out 2>&1
+g16 < s_sp_0_12.txt > s_sp_0_12.out 2>&1
+g16 < s_sp_0_14.txt > s_sp_0_14.out 2>&1
+g16 < s_sp_0_16.txt > s_sp_0_16.out 2>&1
+g16 < s_sp_0_18.txt > s_sp_0_18.out 2>&1
+g16 < s_sp_2_0.txt > s_sp_2_0.out 2>&1
+g16 < s_sp_2_2.txt > s_sp_2_2.out 2>&1
+g16 < s_sp_2_4.txt > s_sp_2_4.out 2>&1
+g16 < s_sp_2_6.txt > s_sp_2_6.out 2>&1
+g16 < s_sp_2_8.txt > s_sp_2_8.out 2>&1
+g16 < s_sp_2_10.txt > s_sp_2_10.out 2>&1
+g16 < s_sp_2_12.txt > s_sp_2_12.out 2>&1
+g16 < s_sp_2_14.txt > s_sp_2_14.out 2>&1
+g16 < s_sp_2_16.txt > s_sp_2_16.out 2>&1
+g16 < s_sp_2_18.txt > s_sp_2_18.out 2>&1
+g16 < s_sp_4_0.txt > s_sp_4_0.out 2>&1
+g16 < s_sp_4_2.txt > s_sp_4_2.out 2>&1
+g16 < s_sp_4_4.txt > s_sp_4_4.out 2>&1
+g16 < s_sp_4_6.txt > s_sp_4_6.out 2>&1
+g16 < s_sp_4_8.txt > s_sp_4_8.out 2>&1
+g16 < s_sp_4_10.txt > s_sp_4_10.out 2>&1
+g16 < s_sp_4_12.txt > s_sp_4_12.out 2>&1
+g16 < s_sp_4_14.txt > s_sp_4_14.out 2>&1
+g16 < s_sp_4_16.txt > s_sp_4_16.out 2>&1
+g16 < s_sp_4_18.txt > s_sp_4_18.out 2>&1
+g16 < s_sp_6_0.txt > s_sp_6_0.out 2>&1
+g16 < s_sp_6_2.txt > s_sp_6_2.out 2>&1
+g16 < s_sp_6_4.txt > s_sp_6_4.out 2>&1
+g16 < s_sp_6_6.txt > s_sp_6_6.out 2>&1
+g16 < s_sp_6_8.txt > s_sp_6_8.out 2>&1
+g16 < s_sp_6_10.txt > s_sp_6_10.out 2>&1
+g16 < s_sp_6_12.txt > s_sp_6_12.out 2>&1
+g16 < s_sp_6_14.txt > s_sp_6_14.out 2>&1
+g16 < s_sp_6_16.txt > s_sp_6_16.out 2>&1
+g16 < s_sp_6_18.txt > s_sp_6_18.out 2>&1
+g16 < s_sp_8_0.txt > s_sp_8_0.out 2>&1
+g16 < s_sp_8_2.txt > s_sp_8_2.out 2>&1
+g16 < s_sp_8_4.txt > s_sp_8_4.out 2>&1
+g16 < s_sp_8_6.txt > s_sp_8_6.out 2>&1
+g16 < s_sp_8_8.txt > s_sp_8_8.out 2>&1
+g16 < s_sp_8_10.txt > s_sp_8_10.out 2>&1
+g16 < s_sp_8_12.txt > s_sp_8_12.out 2>&1
+g16 < s_sp_8_14.txt > s_sp_8_14.out 2>&1
+g16 < s_sp_8_16.txt > s_sp_8_16.out 2>&1
+g16 < s_sp_8_18.txt > s_sp_8_18.out 2>&1
+g16 < s_sp_10_0.txt > s_sp_10_0.out 2>&1
+g16 < s_sp_10_2.txt > s_sp_10_2.out 2>&1
+g16 < s_sp_10_4.txt > s_sp_10_4.out 2>&1
+g16 < s_sp_10_6.txt > s_sp_10_6.out 2>&1
+g16 < s_sp_10_8.txt > s_sp_10_8.out 2>&1
+g16 < s_sp_10_10.txt > s_sp_10_10.out 2>&1
+g16 < s_sp_10_12.txt > s_sp_10_12.out 2>&1
+g16 < s_sp_10_14.txt > s_sp_10_14.out 2>&1
+g16 < s_sp_10_16.txt > s_sp_10_16.out 2>&1
+g16 < s_sp_10_18.txt > s_sp_10_18.out 2>&1
+g16 < s_sp_12_0.txt > s_sp_12_0.out 2>&1
+g16 < s_sp_12_2.txt > s_sp_12_2.out 2>&1
+g16 < s_sp_12_4.txt > s_sp_12_4.out 2>&1
+g16 < s_sp_12_6.txt > s_sp_12_6.out 2>&1
+g16 < s_sp_12_8.txt > s_sp_12_8.out 2>&1
+g16 < s_sp_12_10.txt > s_sp_12_10.out 2>&1
+g16 < s_sp_12_12.txt > s_sp_12_12.out 2>&1
+g16 < s_sp_12_14.txt > s_sp_12_14.out 2>&1
+g16 < s_sp_12_16.txt > s_sp_12_16.out 2>&1
+g16 < s_sp_12_18.txt > s_sp_12_18.out 2>&1
+g16 < s_sp_14_0.txt > s_sp_14_0.out 2>&1
+g16 < s_sp_14_2.txt > s_sp_14_2.out 2>&1
+g16 < s_sp_14_4.txt > s_sp_14_4.out 2>&1
+g16 < s_sp_14_6.txt > s_sp_14_6.out 2>&1
+g16 < s_sp_14_8.txt > s_sp_14_8.out 2>&1
+g16 < s_sp_14_10.txt > s_sp_14_10.out 2>&1
+g16 < s_sp_14_12.txt > s_sp_14_12.out 2>&1
+g16 < s_sp_14_14.txt > s_sp_14_14.out 2>&1
+g16 < s_sp_14_16.txt > s_sp_14_16.out 2>&1
+g16 < s_sp_14_18.txt > s_sp_14_18.out 2>&1
+g16 < s_sp_16_0.txt > s_sp_16_0.out 2>&1
+g16 < s_sp_16_2.txt > s_sp_16_2.out 2>&1
+g16 < s_sp_16_4.txt > s_sp_16_4.out 2>&1
+g16 < s_sp_16_6.txt > s_sp_16_6.out 2>&1
+g16 < s_sp_16_8.txt > s_sp_16_8.out 2>&1
+g16 < s_sp_16_10.txt > s_sp_16_10.out 2>&1
+g16 < s_sp_16_12.txt > s_sp_16_12.out 2>&1
+g16 < s_sp_16_14.txt > s_sp_16_14.out 2>&1
+g16 < s_sp_16_16.txt > s_sp_16_16.out 2>&1
+g16 < s_sp_16_18.txt > s_sp_16_18.out 2>&1
+g16 < s_sp_18_0.txt > s_sp_18_0.out 2>&1
+g16 < s_sp_18_2.txt > s_sp_18_2.out 2>&1
+g16 < s_sp_18_4.txt > s_sp_18_4.out 2>&1
+g16 < s_sp_18_6.txt > s_sp_18_6.out 2>&1
+g16 < s_sp_18_8.txt > s_sp_18_8.out 2>&1
+g16 < s_sp_18_10.txt > s_sp_18_10.out 2>&1
+g16 < s_sp_18_12.txt > s_sp_18_12.out 2>&1
+g16 < s_sp_18_14.txt > s_sp_18_14.out 2>&1
+g16 < s_sp_18_16.txt > s_sp_18_16.out 2>&1
+g16 < s_sp_18_18.txt > s_sp_18_18.out 2>&1

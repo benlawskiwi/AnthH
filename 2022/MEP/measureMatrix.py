@@ -124,12 +124,12 @@ zz.append(z2-z1)
 #zz *= 1/0.38970
 
 print('THIS IS THE REACTION VECTOR')
-vec = np.column_stack((xx,yy,zz))
+vec = np.column_stack((yy,zz,xx))
 print(vec)
 #print(np.shape(vec))
 
 #make one vertical array
-ar = xx+yy+zz
+ar = yy+zz+xx
 Yarr = np.array(ar)
 Yarr *=1/0.38540
 #print('Size of answer array')
@@ -211,6 +211,8 @@ plt.plot((0,0),(0,0),'C3',label='B2')
 plt.legend()
 plt.xlabel('Mode Frequency')
 plt.ylabel('Cosine Sim. wrt Rxn Coord.')
+
+plt.savefig('fig-cosineSim.png', dpi=600,bbox_inches='tight')
 
 plt.show()
 

@@ -1,0 +1,92 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=32
+#PBS -l mem=128GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < s_sp_-4_-4.txt > s_sp_-4_-4.out 2>&1
+g16 < s_sp_-4_-3.txt > s_sp_-4_-3.out 2>&1
+g16 < s_sp_-4_-2.txt > s_sp_-4_-2.out 2>&1
+g16 < s_sp_-4_-1.txt > s_sp_-4_-1.out 2>&1
+g16 < s_sp_-4_0.txt > s_sp_-4_0.out 2>&1
+g16 < s_sp_-4_1.txt > s_sp_-4_1.out 2>&1
+g16 < s_sp_-4_2.txt > s_sp_-4_2.out 2>&1
+g16 < s_sp_-4_3.txt > s_sp_-4_3.out 2>&1
+g16 < s_sp_-4_4.txt > s_sp_-4_4.out 2>&1
+g16 < s_sp_-3_-4.txt > s_sp_-3_-4.out 2>&1
+g16 < s_sp_-3_-3.txt > s_sp_-3_-3.out 2>&1
+g16 < s_sp_-3_-2.txt > s_sp_-3_-2.out 2>&1
+g16 < s_sp_-3_-1.txt > s_sp_-3_-1.out 2>&1
+g16 < s_sp_-3_0.txt > s_sp_-3_0.out 2>&1
+g16 < s_sp_-3_1.txt > s_sp_-3_1.out 2>&1
+g16 < s_sp_-3_2.txt > s_sp_-3_2.out 2>&1
+g16 < s_sp_-3_3.txt > s_sp_-3_3.out 2>&1
+g16 < s_sp_-3_4.txt > s_sp_-3_4.out 2>&1
+g16 < s_sp_-2_-4.txt > s_sp_-2_-4.out 2>&1
+g16 < s_sp_-2_-3.txt > s_sp_-2_-3.out 2>&1
+g16 < s_sp_-2_-2.txt > s_sp_-2_-2.out 2>&1
+g16 < s_sp_-2_-1.txt > s_sp_-2_-1.out 2>&1
+g16 < s_sp_-2_0.txt > s_sp_-2_0.out 2>&1
+g16 < s_sp_-2_1.txt > s_sp_-2_1.out 2>&1
+g16 < s_sp_-2_2.txt > s_sp_-2_2.out 2>&1
+g16 < s_sp_-2_3.txt > s_sp_-2_3.out 2>&1
+g16 < s_sp_-2_4.txt > s_sp_-2_4.out 2>&1
+g16 < s_sp_-1_-4.txt > s_sp_-1_-4.out 2>&1
+g16 < s_sp_-1_-3.txt > s_sp_-1_-3.out 2>&1
+g16 < s_sp_-1_-2.txt > s_sp_-1_-2.out 2>&1
+g16 < s_sp_-1_-1.txt > s_sp_-1_-1.out 2>&1
+g16 < s_sp_-1_0.txt > s_sp_-1_0.out 2>&1
+g16 < s_sp_-1_1.txt > s_sp_-1_1.out 2>&1
+g16 < s_sp_-1_2.txt > s_sp_-1_2.out 2>&1
+g16 < s_sp_-1_3.txt > s_sp_-1_3.out 2>&1
+g16 < s_sp_-1_4.txt > s_sp_-1_4.out 2>&1
+g16 < s_sp_0_-4.txt > s_sp_0_-4.out 2>&1
+g16 < s_sp_0_-3.txt > s_sp_0_-3.out 2>&1
+g16 < s_sp_0_-2.txt > s_sp_0_-2.out 2>&1
+g16 < s_sp_0_-1.txt > s_sp_0_-1.out 2>&1
+g16 < s_sp_0_0.txt > s_sp_0_0.out 2>&1
+g16 < s_sp_0_1.txt > s_sp_0_1.out 2>&1
+g16 < s_sp_0_2.txt > s_sp_0_2.out 2>&1
+g16 < s_sp_0_3.txt > s_sp_0_3.out 2>&1
+g16 < s_sp_0_4.txt > s_sp_0_4.out 2>&1
+g16 < s_sp_1_-4.txt > s_sp_1_-4.out 2>&1
+g16 < s_sp_1_-3.txt > s_sp_1_-3.out 2>&1
+g16 < s_sp_1_-2.txt > s_sp_1_-2.out 2>&1
+g16 < s_sp_1_-1.txt > s_sp_1_-1.out 2>&1
+g16 < s_sp_1_0.txt > s_sp_1_0.out 2>&1
+g16 < s_sp_1_1.txt > s_sp_1_1.out 2>&1
+g16 < s_sp_1_2.txt > s_sp_1_2.out 2>&1
+g16 < s_sp_1_3.txt > s_sp_1_3.out 2>&1
+g16 < s_sp_1_4.txt > s_sp_1_4.out 2>&1
+g16 < s_sp_2_-4.txt > s_sp_2_-4.out 2>&1
+g16 < s_sp_2_-3.txt > s_sp_2_-3.out 2>&1
+g16 < s_sp_2_-2.txt > s_sp_2_-2.out 2>&1
+g16 < s_sp_2_-1.txt > s_sp_2_-1.out 2>&1
+g16 < s_sp_2_0.txt > s_sp_2_0.out 2>&1
+g16 < s_sp_2_1.txt > s_sp_2_1.out 2>&1
+g16 < s_sp_2_2.txt > s_sp_2_2.out 2>&1
+g16 < s_sp_2_3.txt > s_sp_2_3.out 2>&1
+g16 < s_sp_2_4.txt > s_sp_2_4.out 2>&1
+g16 < s_sp_3_-4.txt > s_sp_3_-4.out 2>&1
+g16 < s_sp_3_-3.txt > s_sp_3_-3.out 2>&1
+g16 < s_sp_3_-2.txt > s_sp_3_-2.out 2>&1
+g16 < s_sp_3_-1.txt > s_sp_3_-1.out 2>&1
+g16 < s_sp_3_0.txt > s_sp_3_0.out 2>&1
+g16 < s_sp_3_1.txt > s_sp_3_1.out 2>&1
+g16 < s_sp_3_2.txt > s_sp_3_2.out 2>&1
+g16 < s_sp_3_3.txt > s_sp_3_3.out 2>&1
+g16 < s_sp_3_4.txt > s_sp_3_4.out 2>&1
+g16 < s_sp_4_-4.txt > s_sp_4_-4.out 2>&1
+g16 < s_sp_4_-3.txt > s_sp_4_-3.out 2>&1
+g16 < s_sp_4_-2.txt > s_sp_4_-2.out 2>&1
+g16 < s_sp_4_-1.txt > s_sp_4_-1.out 2>&1
+g16 < s_sp_4_0.txt > s_sp_4_0.out 2>&1
+g16 < s_sp_4_1.txt > s_sp_4_1.out 2>&1
+g16 < s_sp_4_2.txt > s_sp_4_2.out 2>&1
+g16 < s_sp_4_3.txt > s_sp_4_3.out 2>&1
+g16 < s_sp_4_4.txt > s_sp_4_4.out 2>&1

@@ -11,18 +11,18 @@ l = ['C','C','C','C','C','C','C','C','C','C','C','C','C','C','H','H','H','H','H'
 
 
 #Read in geometry
-a,b,c = np.loadtxt('T.txt',usecols=(1,2,3),unpack=True)
+a,b,c = np.loadtxt('TS.txt',usecols=(0,1,2),unpack=True)
 #Read in frequency
 x,y,z = np.loadtxt(fns,unpack=True)
 
 #Rxn coordinate to cover
 
-xxx = np.arange(-5,6,1)
+xxx = np.arange(-20,22,2)
 
 for i in range(0,np.size(xxx)):
-    m = a+x*xxx[i]/10
-    n = b+y*xxx[i]/10
-    o = c+z*xxx[i]/10
+    m = a+x*xxx[i]/100
+    n = b+y*xxx[i]/100
+    o = c+z*xxx[i]/100
     arr = np.column_stack((l,m,n,o))
     serv = '%NProcShared=16\n%mem = 64GB\n#n M062X/6-311++G(d,p) TD(NStates=1) EmpiricalDispersion=GD3 SP\n \n SP_'+str(xxx[i])+'\n\n1 1\n'
     gm=''

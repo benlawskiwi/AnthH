@@ -1,0 +1,47 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < s_sp_0-0.txt > s_sp_0-0.out 2>&1
+g16 < s_sp_0-1.txt > s_sp_0-1.out 2>&1
+g16 < s_sp_0-2.txt > s_sp_0-2.out 2>&1
+g16 < s_sp_0-3.txt > s_sp_0-3.out 2>&1
+g16 < s_sp_0-4.txt > s_sp_0-4.out 2>&1
+g16 < s_sp_0-5.txt > s_sp_0-5.out 2>&1
+g16 < s_sp_1-0.txt > s_sp_1-0.out 2>&1
+g16 < s_sp_1-1.txt > s_sp_1-1.out 2>&1
+g16 < s_sp_1-2.txt > s_sp_1-2.out 2>&1
+g16 < s_sp_1-3.txt > s_sp_1-3.out 2>&1
+g16 < s_sp_1-4.txt > s_sp_1-4.out 2>&1
+g16 < s_sp_1-5.txt > s_sp_1-5.out 2>&1
+g16 < s_sp_2-0.txt > s_sp_2-0.out 2>&1
+g16 < s_sp_2-1.txt > s_sp_2-1.out 2>&1
+g16 < s_sp_2-2.txt > s_sp_2-2.out 2>&1
+g16 < s_sp_2-3.txt > s_sp_2-3.out 2>&1
+g16 < s_sp_2-4.txt > s_sp_2-4.out 2>&1
+g16 < s_sp_2-5.txt > s_sp_2-5.out 2>&1
+g16 < s_sp_3-0.txt > s_sp_3-0.out 2>&1
+g16 < s_sp_3-1.txt > s_sp_3-1.out 2>&1
+g16 < s_sp_3-2.txt > s_sp_3-2.out 2>&1
+g16 < s_sp_3-3.txt > s_sp_3-3.out 2>&1
+g16 < s_sp_3-4.txt > s_sp_3-4.out 2>&1
+g16 < s_sp_3-5.txt > s_sp_3-5.out 2>&1
+g16 < s_sp_4-0.txt > s_sp_4-0.out 2>&1
+g16 < s_sp_4-1.txt > s_sp_4-1.out 2>&1
+g16 < s_sp_4-2.txt > s_sp_4-2.out 2>&1
+g16 < s_sp_4-3.txt > s_sp_4-3.out 2>&1
+g16 < s_sp_4-4.txt > s_sp_4-4.out 2>&1
+g16 < s_sp_4-5.txt > s_sp_4-5.out 2>&1
+g16 < s_sp_5-0.txt > s_sp_5-0.out 2>&1
+g16 < s_sp_5-1.txt > s_sp_5-1.out 2>&1
+g16 < s_sp_5-2.txt > s_sp_5-2.out 2>&1
+g16 < s_sp_5-3.txt > s_sp_5-3.out 2>&1
+g16 < s_sp_5-4.txt > s_sp_5-4.out 2>&1
+g16 < s_sp_5-5.txt > s_sp_5-5.out 2>&1

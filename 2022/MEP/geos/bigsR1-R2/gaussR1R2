@@ -1,0 +1,47 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00
+#PBS -l ncpus=32
+#PBS -l mem=128GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < s_sp_100_0.txt > s_sp_100_0.out 2>&1
+g16 < s_sp_100_25.txt > s_sp_100_25.out 2>&1
+g16 < s_sp_100_50.txt > s_sp_100_50.out 2>&1
+g16 < s_sp_100_75.txt > s_sp_100_75.out 2>&1
+g16 < s_sp_100_100.txt > s_sp_100_100.out 2>&1
+g16 < s_sp_125_0.txt > s_sp_125_0.out 2>&1
+g16 < s_sp_125_25.txt > s_sp_125_25.out 2>&1
+g16 < s_sp_125_50.txt > s_sp_125_50.out 2>&1
+g16 < s_sp_125_75.txt > s_sp_125_75.out 2>&1
+g16 < s_sp_125_100.txt > s_sp_125_100.out 2>&1
+g16 < s_sp_150_0.txt > s_sp_150_0.out 2>&1
+g16 < s_sp_150_25.txt > s_sp_150_25.out 2>&1
+g16 < s_sp_150_50.txt > s_sp_150_50.out 2>&1
+g16 < s_sp_150_75.txt > s_sp_150_75.out 2>&1
+g16 < s_sp_150_100.txt > s_sp_150_100.out 2>&1
+g16 < s_sp_0_100.txt > s_sp_0_100.out 2>&1
+g16 < s_sp_0_125.txt > s_sp_0_125.out 2>&1
+g16 < s_sp_0_150.txt > s_sp_0_150.out 2>&1
+g16 < s_sp_25_100.txt > s_sp_25_100.out 2>&1
+g16 < s_sp_25_125.txt > s_sp_25_125.out 2>&1
+g16 < s_sp_25_150.txt > s_sp_25_150.out 2>&1
+g16 < s_sp_50_100.txt > s_sp_50_100.out 2>&1
+g16 < s_sp_50_125.txt > s_sp_50_125.out 2>&1
+g16 < s_sp_50_150.txt > s_sp_50_150.out 2>&1
+g16 < s_sp_75_100.txt > s_sp_75_100.out 2>&1
+g16 < s_sp_75_125.txt > s_sp_75_125.out 2>&1
+g16 < s_sp_75_150.txt > s_sp_75_150.out 2>&1
+g16 < s_sp_100_100.txt > s_sp_100_100.out 2>&1
+g16 < s_sp_100_125.txt > s_sp_100_125.out 2>&1
+g16 < s_sp_100_150.txt > s_sp_100_150.out 2>&1
+g16 < s_sp_125_100.txt > s_sp_125_100.out 2>&1
+g16 < s_sp_125_125.txt > s_sp_125_125.out 2>&1
+g16 < s_sp_125_150.txt > s_sp_125_150.out 2>&1
+g16 < s_sp_150_100.txt > s_sp_150_100.out 2>&1
+g16 < s_sp_150_125.txt > s_sp_150_125.out 2>&1
+g16 < s_sp_150_150.txt > s_sp_150_150.out 2>&1
