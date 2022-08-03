@@ -1,0 +1,16 @@
+This is a multi-thread run using 24 threads
+/apps/qchem/5.3.2/exe/qcprog.exe .q-ts-6.inp.1069245.qcin.1 /jobfs/53805734.gadi-pbs/qchem1069245/
+Plots files are placed in /home/561/ts1578/Anth+/doubleH/TS/plots/q-ts-6.out.plots
+
+======================================================================================
+                  Resource Usage on 2022-08-02 12:02:09:
+   Job Id:             53805734.gadi-pbs
+   Project:            y35
+   Exit Status:        0
+   Service Units:      1.04
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:25:37                                   
+   Memory Requested:   96.0GB                Memory Used: 1.15GB          
+   Walltime requested: 04:00:00            Walltime Used: 00:01:18        
+   JobFS requested:    100.0GB                JobFS used: 0B              
+======================================================================================

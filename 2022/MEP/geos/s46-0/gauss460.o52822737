@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2022-07-27 14:54:57:
+   Job Id:             52822737.gadi-pbs
+   Project:            y35
+   Exit Status:        0
+   Service Units:      153.85
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 75:29:52                                   
+   Memory Requested:   128.0GB               Memory Used: 2.1GB           
+   Walltime requested: 08:00:00            Walltime Used: 02:24:14        
+   JobFS requested:    100.0GB                JobFS used: 87.88MB         
+======================================================================================

@@ -1,0 +1,60 @@
+#!/bin/bash
+#PBS -l walltime=10:00:00
+#PBS -l ncpus=48
+#PBS -l mem=190GB
+#PBS -l jobfs=100GB
+#PBS -l software=g16
+#PBS -l wd
+#PBS -P y35
+#PBS -q normal
+
+module load gaussian
+g16 < s_sp_-6_-6.txt > s_sp_-6_-6.out 2>&1
+g16 < s_sp_-6_-4.txt > s_sp_-6_-4.out 2>&1
+g16 < s_sp_-6_-2.txt > s_sp_-6_-2.out 2>&1
+g16 < s_sp_-6_0.txt > s_sp_-6_0.out 2>&1
+g16 < s_sp_-6_2.txt > s_sp_-6_2.out 2>&1
+g16 < s_sp_-6_4.txt > s_sp_-6_4.out 2>&1
+g16 < s_sp_-6_6.txt > s_sp_-6_6.out 2>&1
+g16 < s_sp_-4_-6.txt > s_sp_-4_-6.out 2>&1
+g16 < s_sp_-4_-4.txt > s_sp_-4_-4.out 2>&1
+g16 < s_sp_-4_-2.txt > s_sp_-4_-2.out 2>&1
+g16 < s_sp_-4_0.txt > s_sp_-4_0.out 2>&1
+g16 < s_sp_-4_2.txt > s_sp_-4_2.out 2>&1
+g16 < s_sp_-4_4.txt > s_sp_-4_4.out 2>&1
+g16 < s_sp_-4_6.txt > s_sp_-4_6.out 2>&1
+g16 < s_sp_-2_-6.txt > s_sp_-2_-6.out 2>&1
+g16 < s_sp_-2_-4.txt > s_sp_-2_-4.out 2>&1
+g16 < s_sp_-2_-2.txt > s_sp_-2_-2.out 2>&1
+g16 < s_sp_-2_0.txt > s_sp_-2_0.out 2>&1
+g16 < s_sp_-2_2.txt > s_sp_-2_2.out 2>&1
+g16 < s_sp_-2_4.txt > s_sp_-2_4.out 2>&1
+g16 < s_sp_-2_6.txt > s_sp_-2_6.out 2>&1
+g16 < s_sp_0_-6.txt > s_sp_0_-6.out 2>&1
+g16 < s_sp_0_-4.txt > s_sp_0_-4.out 2>&1
+g16 < s_sp_0_-2.txt > s_sp_0_-2.out 2>&1
+g16 < s_sp_0_0.txt > s_sp_0_0.out 2>&1
+g16 < s_sp_0_2.txt > s_sp_0_2.out 2>&1
+g16 < s_sp_0_4.txt > s_sp_0_4.out 2>&1
+g16 < s_sp_0_6.txt > s_sp_0_6.out 2>&1
+g16 < s_sp_2_-6.txt > s_sp_2_-6.out 2>&1
+g16 < s_sp_2_-4.txt > s_sp_2_-4.out 2>&1
+g16 < s_sp_2_-2.txt > s_sp_2_-2.out 2>&1
+g16 < s_sp_2_0.txt > s_sp_2_0.out 2>&1
+g16 < s_sp_2_2.txt > s_sp_2_2.out 2>&1
+g16 < s_sp_2_4.txt > s_sp_2_4.out 2>&1
+g16 < s_sp_2_6.txt > s_sp_2_6.out 2>&1
+g16 < s_sp_4_-6.txt > s_sp_4_-6.out 2>&1
+g16 < s_sp_4_-4.txt > s_sp_4_-4.out 2>&1
+g16 < s_sp_4_-2.txt > s_sp_4_-2.out 2>&1
+g16 < s_sp_4_0.txt > s_sp_4_0.out 2>&1
+g16 < s_sp_4_2.txt > s_sp_4_2.out 2>&1
+g16 < s_sp_4_4.txt > s_sp_4_4.out 2>&1
+g16 < s_sp_4_6.txt > s_sp_4_6.out 2>&1
+g16 < s_sp_6_-6.txt > s_sp_6_-6.out 2>&1
+g16 < s_sp_6_-4.txt > s_sp_6_-4.out 2>&1
+g16 < s_sp_6_-2.txt > s_sp_6_-2.out 2>&1
+g16 < s_sp_6_0.txt > s_sp_6_0.out 2>&1
+g16 < s_sp_6_2.txt > s_sp_6_2.out 2>&1
+g16 < s_sp_6_4.txt > s_sp_6_4.out 2>&1
+g16 < s_sp_6_6.txt > s_sp_6_6.out 2>&1

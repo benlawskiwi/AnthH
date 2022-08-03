@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -l walltime=4:00:00
+#PBS -l ncpus=24
+#PBS -l mem=96GB
+#PBS -l jobfs=100GB
+#PBS -l wd
+#PBS -P y35 
+#PBS -q normal 
+
+module load qchem/5.3.2
+
+qchem -nt $PBS_NCPUS q-ts-6.inp q-ts-6.out
+
+
+

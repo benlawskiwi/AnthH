@@ -8,8 +8,8 @@ import os
 ts = 539.712106
 
 #Grid Size
-xxx = np.arange(-125,150,25)
-yyy = np.arange(-125,150,25)
+xxx = np.arange(-6,8,2)
+yyy = np.arange(-6,8,2)
 
 
 geo1 = input('Enter first frequency mode to plot (ie 20): ')
@@ -30,8 +30,8 @@ for filename in glob.glob(os.path.join(path, '*.out')):
     #indb = filename.split('_')[2].split('-')[1].split('.')[0]
     inda = filename.split('_')[2]
     indb = filename.split('_')[3].split('.')[0]
-    inda = (int(inda)+125)/25
-    indb = (int(indb)+125)/25
+    inda = (int(inda)+6)/2
+    indb = (int(indb)+6)/2
     print(inda)
     print(indb)
     stpa = (xxx[int(inda)])/10
@@ -82,29 +82,39 @@ gg = np.array(gg)
 np.savetxt(path+'z_'+str(geo1)+'-'+str(geo2)+'PES.txt',np.column_stack((aa,bb,ee)))
 #np.savetxt(path+'y_'+str(geo)+'PES.txt',np.column_stack((cs,gs)))
 
-zzz = np.zeros((np.size(xxx),np.size(yyy)))
+zzz = np.zeros((np.size(yyy),np.size(xxx)))
 X,Y = np.meshgrid(xxx,yyy)
 
-for i in range(0,np.size(xxx)):
-   for j in range(0,np.size(yyy)):
-       ax = xxx[i]/10
-       ay = yyy[j]/10
+for i in range(0,np.size(yyy)):
+   for j in range(0,np.size(xxx)):
+       ay = yyy[i]/10
+       ax = xxx[j]/10
        for k in range(0,np.size(aa)):
            if aa[k] == ax and bb[k] == ay:
                az = ee[k]
        zzz[i,j] = az
 
+print('--------------Matrix sizes-----------------')
+print('Size aa = '+str(np.shape(aa)))
+print('Size bb = '+str(np.shape(bb)))
+print('Size ee = '+str(np.shape(ee)))
+print('Size xxx = '+str(np.shape(xxx)))
+print('Size yyy = '+str(np.shape(yyy)))
+print('Size zzz = '+str(np.shape(zzz)))
+print('Size X = '+str(np.shape(X)))
+print('Size Y = '+str(np.shape(Y)))
 #contour plot
-h = plt.contourf(xxx,yyy,zzz)
+h = plt.contourf(xxx,yyy,zzz,levels=15)
 plt.xlabel('Q_'+str(geo1))
 plt.ylabel('Q_'+str(geo2))
 plt.show()
 
 #surface plot
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-surf = ax.plot_surface(X,Y,zzz, cmap=cm.coolwarm)
+surf = ax.plot_surface(Y,X,zzz, cmap=cm.coolwarm)
 plt.xlabel('Q_'+str(geo1))
 plt.ylabel('Q_'+str(geo2))
+#ax.axes.set_zlim3d(bottom=12000, top=13000)
 plt.show()
 
 
