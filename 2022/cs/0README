@@ -1,0 +1,28 @@
+Need to make sure IRC geometries and TS freq geometries overlap!!!
+
+IRC geometries:
+P.txt
+R.txt
+T.txt
+
+Coords:
+R1.txt
+R2.txt
+
+TS geometry:
+TS.txt
+
+Need to apply rotation to T.txt, R1.txt, and R2.txt to overlap with the TS vibrational mode 
+coordinates. This should change the results of programs such as cosineSim.
+
+
+Numbering is the same!! Just need to rotate axes.
+
+If TS = x,y,z
+    T = y,z,x
+
+Same is true for the 3 states
+
+TS = Z, X, Y		h-ts-6.out
+EX = X, Y, Z 		h-exc-6.out
+GR = Z, X, Y		h-gro-7.out	(#7 is to reorder atoms)
